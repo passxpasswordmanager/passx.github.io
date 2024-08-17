@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        {
+            margin: 0;
+            padding: 0;
+        }
+        /* *
+        form{
+            justify-content: center;
+            align-items: center;
+            background-color: blue;
+        }
+        */
+        body{
+             width: 100vw;
+            /* height: 100vw; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        h2{
+           padding-left: 220px;
+           text-decoration: underline;
+           color: #fff;
+           background: #4a90e2;
+           height: 50px;
+           margin-top: 10px;
+           padding-top: 10px;
+           border-radius: 5px;
+        } 
+        .form-container{
+            align-items: center;
+            padding: 5px;
+            border: 2px solid gray;
+            width: 500px;
+            height: auto;
+            border-radius: 20px;
+        }
+        .btn{
+            /* display: block; */
+            width: 35%;
+            margin: 20px 32%;
+            height: 30px;
+            display: flex;
+            background-color: #4a90e2;
+            color: #fff;
+            border-radius: 10px;
+            border: 2px solid white;
+            cursor: pointer;
+        }
+
+        .box{
+            height: 30px;
+            width: 80%;
+            margin-left: 40px;
+        }
+        p{
+            margin-left: 40px;
+        }
+        a{
+            text-decoration: none;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <!-- <form>
+        <h2 class="h2">LOGIN</h2>
+        <div>
+            <input type="text" value="Enter you ID">
+            <input type="password">
+            <input type="button" value="Login">
+        </div>
+    </form> -->
+
+    <section class="form-container">
+
+        <form action="" method="post">
+           <h2>LOGIN</h2>
+           <input type="email" name="email" required maxlength="50" placeholder="enter your email" class="box">
+           <br>
+           <br>
+           <input type="password" name="pass" required maxlength="20" placeholder="enter your password" class="box">
+           <p>Don't have an account? <a href="register.html">register now</a></p>
+           <input type="submit" value="login now" name="submit" class="btn"; a href="index.html"/>
+        </form>
+     
+     </section>
+
+</body>
+</html>
